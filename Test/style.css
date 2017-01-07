@@ -1,0 +1,40 @@
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+
+
+.panel-heading .btn-clickable
+{
+display: inline-block;
+margin-top: -25px;
+font-size: 15px;
+margin-right: -10px;
+padding: 4px 10px;
+border-radius: 4px
+}
+ 
+ 
+.panel-heading span
+{
+margin-top: -23px;
+font-size: 15px;
+margin-right: -9px;
+}
+
+ div.container div.row div.col-md-12 div.panel div.panel-heading h3.panel-title
+{
+font-size: 20px;
+font-weight: 700pt;
+}
+
+<ul>
+					<li>
+						<select name="item1" class="form-control">
+							<option>GT-06</option>
+							<option>TK-103</option>
+							<option>ET-06</option>							
+						</select>
+					</li>
+					<li><input type="number" name="quantity1" class="form-control" placeholder="Quantity" /></li>
+					<li><input type="text" name="rate1" id="rate" class="form-control" placeholder="Rate" /></li>
+					<!--<li><span class="glyphicon glyphicon-plus" id="newInput"></span></li>
+					<span id="invoice-pagelet4" >-->
+				</ul>	
